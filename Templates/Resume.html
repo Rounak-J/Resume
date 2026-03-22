@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Resume</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50; 
+            --accent-color: #3eadf7; 
+            --bg-light: #f9f9f9;
+        }
+
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1080px;
+            margin: 40px auto;
+            padding: 0 20px;
+            background-color: #fff;
+        }
+
+        header {
+            border-bottom: 3px solid black;
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+            font-size: 1.2em;
+        }
+
+        h1 { 
+            margin-bottom: 5px; 
+            color: var(--primary-color); 
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .contact-info { 
+            font-size: 0.9em; 
+            color: #555; 
+        }
+
+        section { margin-bottom: 30px; }
+
+        h2 { 
+            font-size: 1.1em; 
+            text-transform: uppercase; 
+            color: var(--bg-light);
+            background-color: var(--accent-color);
+            padding: 5px 10px;
+            /* border-left: 4px solid var(--primary-color); */
+            margin: 0px 0px 15px;
+            border-radius: 10px;
+        }
+
+        .entry-header { 
+            display: flex; 
+            justify-content: space-between; 
+            font-weight: bold; 
+            color: #444;
+        }
+
+        .entry-sub { 
+            font-style: italic; 
+            color: var(--accent-color); 
+            font-weight: 500;
+        }
+
+        ul { padding-left: 20px; margin-top: 8px; }
+
+        .skills-list { 
+            display: flex; 
+            flex-wrap: wrap; 
+            list-style: none; 
+            padding: 0; 
+        }
+
+        .skills-list li { 
+            background: var(--bg-light); 
+            border: 1px solid var(--accent-color);
+            margin: 0 8px 8px 0; 
+            padding: 4px 12px; 
+            border-radius: 10px;
+            font-size: 0.85em;
+            color: var(--primary-color);
+        }
+        .entry-header-li{
+            font-size: 0.9em;
+            margin : 0px;
+            color : var(--primary-color);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Rounak Jaiswal</h1>
+        <div class="contact-info">
+            M.S. Mukherjee Road, Khardah, Kolkata:700116 | Phone: +91 6290532358<br>
+            Email: <a href="mailto:rounakjswl2005@gmail.com">rounakjswl2005@gmail.com</a> | LinkedIn: <a href="https://www.linkedin.com/in/rounak-jaiswal-748315370" target="_blank">Rouank Jaiswal</a>
+        </div>
+    </header>
+
+    <section>
+        <h2>Introduction</h2>
+        <p>
+            Highly motivated Computer Science student specializing in Cyber Security, with a strong foundation in Java and Web Development. 
+        Transitioning from a creative freelance background to focus on mastering deep technical skills and building secure, 
+        scalable applications while excelling in UI/UX design.
+        </p>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>C</li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>HTML/CSS/JavaScript</li>
+            <li>Figma/Adobe Illustrator</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Experience</h2>
+        <div class="entry">
+            <div class="entry-header">
+                <span>Freelance Graphic Designer</span>
+                <span>2024 – Present</span>
+            </div>
+            <div class="entry-sub">Self-Employed</div>
+            <ul>
+                <li>Designed high-engagement social media content and brand identities for various clients.</li>
+                <li>Collaborated with communities like Imperio Coders to enhance digital presence through visual storytelling.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="education">
+        <h2>Education</h2>
+        <ul>
+        <li>
+        <div class="entry">
+            <div class="entry-header">
+                <span>B.Tech in CSE Cyber Security: 2nd year (semester 4)</span>
+                <span>2024-Present</span>
+            </div>
+            <div class="entry-sub">Guru Nanak Institute of Technology
+                <span class="entry-header-li">
+                | Sem 1: 7.9 SGPA; Sem 2: 8.0 SGPA
+                </span>
+            </div>   
+        </li>
+        <li>
+            <div class="entry-header">
+                <span>Higher Secondary Education (10+2)</span>
+                <span>2022-2024</span>
+            </div>
+            <div class="entry-sub">Ramakrishna Vivekananda Mission Barrackpore (WBCHSE)
+                <span class="entry-header-li">
+                | 69%
+                </span>
+            </div>
+        </li>
+        <li>
+            <div class="entry-header">
+                <span>Secondary Education (10)</span>
+                <span>2010-2022</span>
+            </div>
+            <div class="entry-sub">Ramakrishna Vivekananda Mission Barackpore (WBBSE)
+                <span class="entry-header-li">
+                | 76%
+                </span>
+            </div>
+        </div>
+        </li>
+        </ul>
+    </section>
+
+</body>
+</html>
